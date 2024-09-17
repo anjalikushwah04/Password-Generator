@@ -52,7 +52,7 @@ function App() {
 
       <div className="passlength">
         <label>Password length</label>
-        <input type="number" max={20} min={5} value={passlength} onChange={(event)=>setPasslength(event.target.value)}></input>
+        <input type="number" max={30} min={5} value={passlength} onChange={(event)=>setPasslength(event.target.value)}></input>
       </div>
       <div className="passlength">
         <label>Include uppercase letters</label>
